@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Playfair+Display&display=swap");
+
+body {
+    font-family: "Epilogue", sans-serif;
+}
+
+.main-container {
+    display: flex;
+}
+
+.article {
+    margin-left: 10%;
+    p {
+        margin-top: 40px;
+    }
+    h1 {
+        font-size: 60px;
+    }
+}
+
+.deskimg {
+    width: 50%;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.learn-more {
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 40px;
+    color: white;
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+    border: none;
+}
+.learn-more:hover {
+    opacity: 0.6;
+    transition: all;
+    border:  solid 2px black;
+}
+
+.clients {
+    display: flex;
+    margin-top: 100px;
+    gap: 30px;
+}
+
+.client {
+    width: 70px;
+}
+
+.header {
+    display: flex;
+}
+
+.nav-bar {
+    display: flex;
+    margin-left: 30px;
+    gap: 20px;
+}
+
+.header-container {
+    display: flex;
+    margin-left: 40px;
+}
+
+.header-btns {
+    margin-left: 40%;
+    gap: 20px;
+}
+
+.register-btn {
+    margin-left: 30px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: solid 2px hsl(0, 0%, 41%);
+    background-color: white;
+}
+.register-btn:hover {
+    border: solid 2px black;
+}
+
+.logo {
+    height:40px;
+    cursor: pointer;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+}
+.icon {
+    height: 20px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: hsl(0, 0%, 41%);
+    cursor: pointer;
+} 
+button:hover {
+    color: black;
+}
